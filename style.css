@@ -84,3 +84,38 @@ footer {
     font-size: 22px;
     color: #fff;
 }
+
+@media screen and (max-width: 600px) {
+    .header-content {
+        width: 100vw;
+        height: 40vh;
+    }
+
+    .header-content h1 {
+        width: 90%;
+        font-size: 22px;
+        margin-left: -150px;
+        top: 22px;
+    }
+
+    .header-content img {
+        width: 100vw;
+        max-height: 40vh;
+    }
+
+    .article-content {
+        width: 90%;
+        max-width: 90%;
+    }
+
+    .article-content a {
+        width: fit-content;
+        padding: 6px;
+        margin-left: 0px;
+        padding: 8px;
+    }
+
+    footer {
+        font-size: 16px;
+    }
+}
